@@ -1,0 +1,13 @@
+names:
+- normal_face
+- stroke_face
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: telestroke-ycqjy
+  url: https://universe.roboflow.com/telestrokeprojesi/telestroke-ycqjy/dataset/1
+  version: 1
+  workspace: telestrokeprojesi
+test: ../test/images
+train: ../train/images
+val: ../valid/images

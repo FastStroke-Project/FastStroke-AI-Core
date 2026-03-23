@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "TeleStroke_Project",
+			"path": "."
+		},
+		{
+			"name": "runs",
+			"path": "../../runs"
+		}
+	],
+	"settings": {}
+}
