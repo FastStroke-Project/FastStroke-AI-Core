@@ -14,7 +14,7 @@ model = YOLO('yolov8n.pt')
 # 3. EĞİTİMİ BAŞLAT (MAC M2 İÇİN OPTİMİZE EDİLDİ)
 results = model.train(
     data=f"{dataset.location}/data.yaml",
-    epochs=100,      # Modeli 100 tur eğitir
+    epochs=99,      # Modeli 100 tur eğitir
     imgsz=640,       # Görüntü boyutu
     device='mps',    # M2 GPU (Metal Performance Shaders) desteği
     plots=True,      # Başarı grafiklerini oluşturur
